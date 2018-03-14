@@ -12,3 +12,7 @@ function nameToAttributes(drivers) {
     return { firstName: firstName, lastName: lastName };
   });
 }
+
+function attributesToPhrase(drivers) {
+  console.log(`${driver.name} is from ${driver.hometown}`)
+}
